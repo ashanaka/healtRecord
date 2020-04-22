@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label{
+    color: rgb(97, 75, 75);
+    text-align: left;
+}
+
+input{
+    width: 100%;
+    border: 1px solid rgb(97, 75, 75);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button{
+    padding:  10px 15px;
+    background-color: #9b5050;
+    font-size: 15px;
+    border: none;
+    margin-top: 12px;
+    color: white;
+}
+
+button:hover{
+    padding:  10px 15px;
+    background-color: #522b2b;
+    font-size: 15px;
+    border: none;
+    margin-top: 12px;
+    color: white;
+}
+
+input:focus{
+    width: 100%;
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.user-reg{
+    background-color: #eeeeee;
+    padding: 40px;
+    font-size: 20px;
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.form-group{
+    margin: 10px auto;
+    padding: 5px;
+    text-align: left;
+    display: block;
+}

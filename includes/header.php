@@ -4,6 +4,8 @@
 	<title>Health Record | <?php echo $title; ?></title>
     <link rel="stylesheet" type="text/css" href="./css/header.css">
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+    <link rel="stylesheet" type="text/css" href="./css/register.css">
 </head>
 <body>
 
@@ -11,6 +13,6 @@
   <li><a href="./index.php">Home</a></li>
   <li><a href="./about.php">About</a></li>
   <li><a href="./contact.php">Contact</a></li>
-  <li style="float:right"><a class="active" href="#about">Log In</a></li>
-  <li style="float:right"><a class="active" href="#about">Register</a></li>
+  <li style="float:right"><a class="active" href="./login.php">Log In</a></li>
+  <li style="float:right"><a class="active" href="./register.php">Register</a></li>
 </ul>

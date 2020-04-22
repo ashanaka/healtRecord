@@ -1,4 +1,6 @@
-.footer{
+
+
+.footerPage{
     position: fixed;
     width: 100%;
     background-color: rgba(37, 0, 0, 0.959);
@@ -7,4 +9,5 @@
     text-align: center;
     color: white;
     height: 10vh;
+    padding: 20px;
 }
