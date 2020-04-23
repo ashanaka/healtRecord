@@ -25,5 +25,7 @@
                 echo "Error registering new user!";
             }
         }
+
+        // https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php   - for user login & the stuff
     }
 ?>

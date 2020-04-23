@@ -15,13 +15,13 @@
         </div>
         <div class="form-group">
             <label for="user_pwd">Password: </label>
-            <input type="password" name="user_pwd">
+            <input type="password" id="txtPassword" name="user_pwd">
         </div>
         <div class="form-group">
             <label for="user_pwd_conf">Confirm Password: </label>
-            <input type="password" name="user_pwd_conf">
+            <input type="password" id="txtConfirmPassword" name="user_pwd_conf">
         </div>
-        <button type="submit" name="regNewUser">Register</button>
+        <button type="submit" id="btnSubmit" name="regNewUser">Register</button>
     </form>
 </div>
 

@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
     <link rel="stylesheet" type="text/css" href="./css/login.css">
     <link rel="stylesheet" type="text/css" href="./css/register.css">
+    <script src="./js/user.js">
 </head>
 <body>
 
