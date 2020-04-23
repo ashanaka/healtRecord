@@ -4,7 +4,7 @@
 ?>
 
 <div class="user-reg">
-    <form action="#" method="POST">
+    <form action="./utility/manager.php" method="POST">
         <div class="form-group">
             <label for="user_name">Name: </label>
             <input type="text" name="user_name">
