@@ -25,4 +25,6 @@
     </form>
 </div>
 
+<script src="./js/user.js" type="text/javascript"></script>
+
 <?php require_once('./includes/footer.php'); ?>

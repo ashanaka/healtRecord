@@ -6,10 +6,12 @@
 
     $conn = mysqli_connect($hostname, $username, '', $dbname);
 
-    if( $conn){
-        // pass;
-    }else{
-        echo "Error connecting database!";
-    }
+    
+
+    // if( $conn){
+    //     // pass;
+    // }else{
+    //     echo "Error connecting database!";
+    // }
 
 ?>
