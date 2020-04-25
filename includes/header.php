@@ -19,7 +19,7 @@ session_start();
   <li><a href="./contact.php">Contact</a></li>
   <?php 
     if(isset($_SESSION['user_id'])){?>
-      <li style="float:right"><a class="active" href="./logout.php">Log Out</a></li>
+      <li style="float:right"><a class="active" href="./utility/manager.php?logoutUser">Log Out</a></li>
       <li style="float:right"><a class="active" href="./profile.php"><?php echo $_SESSION['user_id'];  ?></a></li> <?php
     }else{?>
       <li style="float:right"><a class="active" href="./login.php">Log In</a></li>

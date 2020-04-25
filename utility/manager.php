@@ -8,6 +8,9 @@
     }elseif(isset($_POST['loginUser'])){
         $user = new User();
         $user->login_user();
+    }elseif(isset($_GET['logoutUser'])){
+        $user = new User();
+        $user->logout_user();
     }else{
         echo "another";
     }

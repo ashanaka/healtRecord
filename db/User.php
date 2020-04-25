@@ -6,13 +6,6 @@
         public $email;
         public $password;
 
-        // Constructor
-        // function __construct() {
-        //     $this->name = $_POST['user_name'];
-        //     $this->email = $_POST['user_email'];
-        //     $this->password = password_hash($_POST['user_pwd'], PASSWORD_DEFAULT);
-        // }
-
         // Insert the newly  created user into the database
         public function insert_user() {
 
@@ -48,21 +41,18 @@
             {
                 while($row = mysqli_fetch_assoc($result)) {
                     $user_id = $row['user_name'];
-                    /*echo "<br>user_id=".$user_id;*/
-                    /* Set the session user_id parameter */
                     session_start();
                     $_SESSION['user_id'] = $user_id;
-                    // $_SESSION['timeout'] = time();
                     header("Location: ../index.php");
-                    // $message = 'You are now logged in';
-                    // echo "login success!";
                 }
             }
         }
 
         // logout user
         public function logout_user(){
-            
+            session_start();
+            session_destroy();
+            header("Location: ../index.php");
         }
     }
 ?>
